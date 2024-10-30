@@ -1,0 +1,8 @@
+platform :ios, '12.0'
+
+target 'VideoEditing' do
+  use_frameworks!
+
+  pod 'GPUImage'  # Voeg GPUImage toe
+end
+

@@ -1,13 +1,13 @@
 {
-  "originHash" : "0d90d2a5eecd0390ef5a7990a106f3c87025884d428817f551ce2fb4c96a2b0f",
+  "originHash" : "c9abdcb482ac90279de8237de96bb7ae46b57d786224db9bae76bcf22c73bb24",
   "pins" : [
     {
-      "identity" : "gpuimage2",
+      "identity" : "gpuimage3",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/BradLarson/GPUImage2",
+      "location" : "https://github.com/BradLarson/GPUImage3",
       "state" : {
-        "revision" : "ffd7b5a64a20535980d4e9eb156fe2ecbe41fc6a",
-        "version" : "0.0.1"
+        "branch" : "main",
+        "revision" : "84466fc344e1220238c1c07e94e91207caaabe51"
       }
     }
   ],

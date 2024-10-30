@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		312A5AF383AACDD99DE32245 /* Pods_VideoEditing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25D5EB1379CE894E8CF7551 /* Pods_VideoEditing.framework */; };
 		AD06A4852CC9270700C1CA1D /* VideoEditingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD06A4842CC9270700C1CA1D /* VideoEditingApp.swift */; };
 		AD06A4872CC9270700C1CA1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD06A4862CC9270700C1CA1D /* ContentView.swift */; };
 		AD06A4892CC9270800C1CA1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD06A4882CC9270800C1CA1D /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		AD06A4962CC9270800C1CA1D /* VideoEditingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD06A4952CC9270800C1CA1D /* VideoEditingTests.swift */; };
 		AD06A4A02CC9270800C1CA1D /* VideoEditingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD06A49F2CC9270800C1CA1D /* VideoEditingUITests.swift */; };
 		AD06A4A22CC9270800C1CA1D /* VideoEditingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD06A4A12CC9270800C1CA1D /* VideoEditingUITestsLaunchTests.swift */; };
+		AD13B59F2CD27E6300CCA6B6 /* VideoEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD13B59E2CD27E6300CCA6B6 /* VideoEditorViewController.swift */; };
+		AD13B5A42CD2C55700CCA6B6 /* GPUImage in Frameworks */ = {isa = PBXBuildFile; productRef = AD13B5A32CD2C55700CCA6B6 /* GPUImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C60DD1C41FA73155DB82566 /* Pods-VideoEditing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoEditing.release.xcconfig"; path = "Target Support Files/Pods-VideoEditing/Pods-VideoEditing.release.xcconfig"; sourceTree = "<group>"; };
 		AD06A4812CC9270700C1CA1D /* VideoEditing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoEditing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD06A4842CC9270700C1CA1D /* VideoEditingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEditingApp.swift; sourceTree = "<group>"; };
 		AD06A4862CC9270700C1CA1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +48,9 @@
 		AD06A49B2CC9270800C1CA1D /* VideoEditingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoEditingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD06A49F2CC9270800C1CA1D /* VideoEditingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEditingUITests.swift; sourceTree = "<group>"; };
 		AD06A4A12CC9270800C1CA1D /* VideoEditingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEditingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD13B59E2CD27E6300CCA6B6 /* VideoEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEditorViewController.swift; sourceTree = "<group>"; };
+		D25D5EB1379CE894E8CF7551 /* Pods_VideoEditing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoEditing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B7D2A602C2CDB1AFB20BD8 /* Pods-VideoEditing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoEditing.debug.xcconfig"; path = "Target Support Files/Pods-VideoEditing/Pods-VideoEditing.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD13B5A42CD2C55700CCA6B6 /* GPUImage in Frameworks */,
+				312A5AF383AACDD99DE32245 /* Pods_VideoEditing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +80,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D1373172254A4EEA34D102D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D25D5EB1379CE894E8CF7551 /* Pods_VideoEditing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7755906CBB2B125563D910F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1B7D2A602C2CDB1AFB20BD8 /* Pods-VideoEditing.debug.xcconfig */,
+				2C60DD1C41FA73155DB82566 /* Pods-VideoEditing.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AD06A4782CC9270700C1CA1D = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +105,8 @@
 				AD06A4942CC9270800C1CA1D /* VideoEditingTests */,
 				AD06A49E2CC9270800C1CA1D /* VideoEditingUITests */,
 				AD06A4822CC9270700C1CA1D /* Products */,
+				7755906CBB2B125563D910F1 /* Pods */,
+				5D1373172254A4EEA34D102D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +127,7 @@
 				AD06A4862CC9270700C1CA1D /* ContentView.swift */,
 				AD06A4882CC9270800C1CA1D /* Assets.xcassets */,
 				AD06A48A2CC9270800C1CA1D /* Preview Content */,
+				AD13B59E2CD27E6300CCA6B6 /* VideoEditorViewController.swift */,
 			);
 			path = VideoEditing;
 			sourceTree = "<group>";
@@ -134,15 +164,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD06A4A52CC9270800C1CA1D /* Build configuration list for PBXNativeTarget "VideoEditing" */;
 			buildPhases = (
+				2F298E92C93FF94DE41D881F /* [CP] Check Pods Manifest.lock */,
 				AD06A47D2CC9270700C1CA1D /* Sources */,
 				AD06A47E2CC9270700C1CA1D /* Frameworks */,
 				AD06A47F2CC9270700C1CA1D /* Resources */,
+				4CB45186430927356FF9BADE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = VideoEditing;
+			packageProductDependencies = (
+				AD13B5A32CD2C55700CCA6B6 /* GPUImage */,
+			);
 			productName = VideoEditing;
 			productReference = AD06A4812CC9270700C1CA1D /* VideoEditing.app */;
 			productType = "com.apple.product-type.application";
@@ -216,8 +251,7 @@
 			);
 			mainGroup = AD06A4782CC9270700C1CA1D;
 			packageReferences = (
-				AD06A4AE2CC9277900C1CA1D /* XCRemoteSwiftPackageReference "GPUImage2" */,
-				AD06A4AF2CC9371700C1CA1D /* XCRemoteSwiftPackageReference "opencv" */,
+				AD13B5A22CD2C55700CCA6B6 /* XCRemoteSwiftPackageReference "GPUImage3" */,
 			);
 			productRefGroup = AD06A4822CC9270700C1CA1D /* Products */;
 			projectDirPath = "";
@@ -256,12 +290,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F298E92C93FF94DE41D881F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoEditing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CB45186430927356FF9BADE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoEditing/Pods-VideoEditing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoEditing/Pods-VideoEditing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoEditing/Pods-VideoEditing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD06A47D2CC9270700C1CA1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AD06A4872CC9270700C1CA1D /* ContentView.swift in Sources */,
+				AD13B59F2CD27E6300CCA6B6 /* VideoEditorViewController.swift in Sources */,
 				AD06A4852CC9270700C1CA1D /* VideoEditingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +497,7 @@
 		};
 		AD06A4A62CC9270800C1CA1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B7D2A602C2CDB1AFB20BD8 /* Pods-VideoEditing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,6 +527,7 @@
 		};
 		AD06A4A72CC9270800C1CA1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C60DD1C41FA73155DB82566 /* Pods-VideoEditing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -594,23 +673,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		AD06A4AE2CC9277900C1CA1D /* XCRemoteSwiftPackageReference "GPUImage2" */ = {
+		AD13B5A22CD2C55700CCA6B6 /* XCRemoteSwiftPackageReference "GPUImage3" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/BradLarson/GPUImage2";
+			repositoryURL = "https://github.com/BradLarson/GPUImage3";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.1;
-			};
-		};
-		AD06A4AF2CC9371700C1CA1D /* XCRemoteSwiftPackageReference "opencv" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/opencv/opencv.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.10.0;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD13B5A32CD2C55700CCA6B6 /* GPUImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD13B5A22CD2C55700CCA6B6 /* XCRemoteSwiftPackageReference "GPUImage3" */;
+			productName = GPUImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AD06A4792CC9270700C1CA1D /* Project object */;
 }
